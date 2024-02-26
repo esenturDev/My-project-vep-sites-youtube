@@ -1,0 +1,91 @@
+.home {
+	.content {
+		display: flex;
+		align-items: start;
+		nav {
+			width: 30.7rem;
+			height: auto;
+		}
+		.mapBekents {
+			display: flex;
+			gap: 2rem;
+			// align-items: center;
+			// flex-wrap: wrap;
+			flex-direction: column;
+			margin-left: 4.5rem;
+			.buttonsResults {
+				display: flex;
+				justify-content: space-evenly;
+				align-items: center;
+				.buttons {
+					box-sizing: border-box;
+					border: 1px solid rgb(64, 64, 64);
+					color: rgb(168, 168, 168);
+					font-family: Inter;
+					font-size: 1rem;
+					font-weight: 400;
+					line-height: 150%;
+					letter-spacing: 0%;
+					text-align: left;
+					padding-inline: 0.9rem;
+					padding-block: 0.7rem;
+					background: black;
+					@media (max-width: 655px) {
+						font-size: 0.8rem;
+						padding-block: 0.5rem;
+						padding-inline: 0.7rem;
+					}
+					&.active {
+						background: rgb(255, 255, 255);
+						padding-block: 0.7rem;
+						padding-inline: 0.9rem;
+						color: rgb(0, 0, 0);
+						font-family: Inter;
+						font-size: 1rem;
+						font-weight: 600;
+						line-height: 150%;
+						letter-spacing: 0%;
+						text-align: left;
+						@media (max-width: 655px) {
+							font-size: 0.8rem;
+							padding-block: 0.5rem;
+							padding-inline: 0.7rem;
+						}
+					}
+				}
+			}
+			.bekCards {
+				display: flex;
+				justify-content: space-evenly;
+				align-items: start;
+				flex-wrap: wrap;
+				gap: 1rem;
+
+				.cards {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+					gap: 1rem;
+					width: 21.8rem;
+					height: auto;
+					img {
+						width: 21.8rem;
+						height: auto;
+						border-radius: 5px;
+					}
+					h2 {
+						color: aliceblue;
+						font-size: 1.3rem;
+						font-weight: 600;
+					}
+					p {
+						color: #6b6565;
+						font-size: 1rem;
+						font-weight: 500;
+					}
+				}
+			}
+		}
+	}
+}

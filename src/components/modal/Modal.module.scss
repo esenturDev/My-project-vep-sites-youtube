@@ -1,0 +1,24 @@
+.containerModal {
+	position: fixed;
+	top: 65px;
+	left: 0;
+	bottom: 0;
+	right: 33px;
+	background: rgba(191, 188, 188, 0.27);
+	display: flex;
+	justify-content: flex-end;
+	align-items: start;
+	.contentModal {
+		background: black;
+		box-sizing: 2px 2px 2px 5px #fff;
+		padding: 20px;
+		border-radius: 5px;
+		box-shadow: 0 0 10px rgba(195, 190, 190, 0.2);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: auto;
+		height: auto;
+		border-radius: 15px;
+	}
+}

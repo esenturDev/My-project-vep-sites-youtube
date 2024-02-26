@@ -1,0 +1,29 @@
+.layout {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+	transition: all 0.5s ease;
+	background-color: black !important;
+	color: #fff !important;
+	main {
+		margin-top: 100px;
+	}
+}
+
+.layout2 {
+	// width: 100%;
+	// height: auto;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+	transition: all 0.5s ease;
+	background-color: #fff !important;
+	color: black !important;
+	main {
+		margin-top: 100px;
+	}
+}
